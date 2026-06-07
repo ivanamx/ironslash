@@ -1,3 +1,4 @@
+import { SEO_COPY } from "../data/company";
 import { SERVICES } from "../data/services";
 import { useModal } from "../context/ModalContext";
 import { useReveal } from "../hooks/useReveal";
@@ -12,9 +13,7 @@ export function Services() {
         <header className="section-header">
           <p className="section-eyebrow">Servicios</p>
           <h2>Lo que construimos</h2>
-          <p className="section-desc">
-            Soluciones end-to-end con el mismo estándar que aplicamos a nuestro propio portfolio.
-          </p>
+          <p className="section-desc">{SEO_COPY.servicesDesc}</p>
         </header>
 
         <div className="services-grid">

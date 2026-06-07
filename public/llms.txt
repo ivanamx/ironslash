@@ -1,0 +1,26 @@
+# IronSlash
+
+> Desarrollo de software en Toluca y Saltillo, México.
+
+Empresa de desarrollo de software premium. Construimos apps móviles, bots con inteligencia artificial, automatizaciones empresariales, web apps, APIs y plataformas SaaS.
+
+## Servicios
+
+- Desarrollo de software a medida
+- Apps móviles iOS y Android
+- Bots con IA (WhatsApp, Telegram)
+- Automatizaciones de procesos
+- Web apps y landings premium
+- APIs, backends y SaaS
+- DevOps: nginx, PM2, SSL, deploy
+
+## Cobertura
+
+- Toluca, Estado de México
+- Saltillo, Coahuila
+- México (remoto)
+
+## Contacto
+
+- Web: https://ironslash.com
+- Email: hello@ironslash.com

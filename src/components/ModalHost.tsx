@@ -84,14 +84,16 @@ export function ModalHost() {
         <p className="modal-eyebrow">◆ Nosotros</p>
         <h2 id="modal-title">IronSlash</h2>
         <p className="modal-body">
-          Somos un estudio de desarrollo de software enfocado en productos digitales premium.
-          Construimos desde landings de alta conversión hasta plataformas completas con bots,
-          pagos e inteligencia artificial — siempre con código limpio y deploy en producción real.
+          Somos un estudio de desarrollo de software con base en Toluca y Saltillo, enfocado
+          en productos digitales premium. Construimos apps móviles, bots con inteligencia
+          artificial, automatizaciones, web apps y plataformas SaaS — siempre con código
+          limpio y deploy en producción real.
         </p>
         <p className="modal-body">
-          Operamos desde México con alcance global. Cada proyecto en nuestro portfolio corre
-          en infraestructura propia: nginx, PM2, SSL y bases de datos administradas con
-          los mismos estándares que ofrecemos a clientes.
+          Atendemos clientes en el Estado de México, Coahuila y todo el país, con alcance
+          remoto global. Cada proyecto en nuestro portfolio corre en infraestructura propia:
+          nginx, PM2, SSL y bases de datos administradas con los mismos estándares que
+          ofrecemos a clientes.
         </p>
         <div className="modal-list-block">
           <h3>Principios</h3>

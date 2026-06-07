@@ -198,32 +198,6 @@ export const PROJECTS: Project[] = [
       infra: "FastAPI :8000 · nginx proxy con range headers",
     },
   },
-  {
-    id: "lorei",
-    name: "Lorei API",
-    domain: "api.loreastrea.com",
-    url: "https://api.loreastrea.com",
-    category: "Mobile Backend",
-    tagline: "API REST para app móvil React Native con PostgreSQL y análisis IA.",
-    stack: ["Node", "Express", "PostgreSQL", "OpenAI"],
-    accent: "#f472b6",
-    modal: {
-      overview:
-        "Backend para aplicación móvil de registro personal. API Express con PostgreSQL, autenticación JWT y endpoints de análisis asistido por IA.",
-      howItWorks: [
-        "Express escucha en 0.0.0.0:8765 gestionado por PM2.",
-        "nginx en api.loreastrea.com hace proxy_pass con soporte WebSocket.",
-        "PostgreSQL local almacena usuarios, encuentros y catalizadores.",
-      ],
-      highlights: [
-        "Diseñado para app iOS React Native",
-        "Análisis IA con respuestas JSON estructuradas",
-        "API REST documentada en repo",
-        "SSL dedicado api.loreastrea.com",
-      ],
-      infra: "PM2 Node :8765 · nginx proxy · PostgreSQL :5432",
-    },
-  },
 ];
 
 export const PROCESS_STEPS = [

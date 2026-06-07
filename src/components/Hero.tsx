@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NAV, SITE } from "../data/company";
+import { NAV, SITE, SEO_COPY } from "../data/company";
 import { useModal } from "../context/ModalContext";
 import { useScrollProgress } from "../hooks/useReveal";
 
@@ -97,10 +97,7 @@ export function Hero() {
           <br />
           <span className="hero-accent">digitales de élite</span>
         </h1>
-        <p className="hero-sub">
-          {SITE.tagline} Web apps, APIs, bots e IA aplicada — diseñados con precisión,
-          desplegados en producción real.
-        </p>
+        <p className="hero-sub">{SEO_COPY.heroSub}</p>
         <div className="hero-actions">
           <button type="button" className="btn btn-primary" onClick={() => document.getElementById("proyectos")?.scrollIntoView({ behavior: "smooth" })}>
             Ver proyectos
@@ -110,7 +107,7 @@ export function Hero() {
           </button>
         </div>
         <div className="hero-stats" aria-label="Métricas">
-          <div><strong>8+</strong><span>Proyectos en producción</span></div>
+          <div><strong>7+</strong><span>Proyectos en producción</span></div>
           <div><strong>100%</strong><span>Deploy real</span></div>
           <div><strong>24/7</strong><span>Bots activos</span></div>
         </div>

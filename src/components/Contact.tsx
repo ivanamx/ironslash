@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SITE } from "../data/company";
+import { SITE, SEO_COPY } from "../data/company";
 import { useReveal } from "../hooks/useReveal";
 
 export function Contact() {
@@ -18,10 +18,7 @@ export function Contact() {
           <div className="contact-copy">
             <p className="section-eyebrow">Contacto</p>
             <h2>¿Listo para construir?</h2>
-            <p>
-              Cuéntanos tu proyecto. Respondemos en menos de 24 horas con una
-              evaluación honesta de alcance, stack y tiempos.
-            </p>
+            <p>{SEO_COPY.contactDesc}</p>
             <a href={`mailto:${SITE.email}`} className="contact-email">
               {SITE.email}
             </a>
@@ -66,7 +63,7 @@ export function Footer({ onPrivacy }: { onPrivacy: () => void }) {
         <div className="footer-brand">
           <span className="logo-iron">Iron</span>
           <span className="logo-slash">Slash</span>
-          <p>Software premium. Deploy real.</p>
+          <p>Software premium · {SITE.location}</p>
         </div>
         <div className="footer-links">
           <button type="button" onClick={onPrivacy}>Privacidad</button>

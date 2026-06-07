@@ -434,6 +434,63 @@ a { color: inherit; }
   .hero-grid, .hero-glow, .hero-scroll-line, .pulse-dot, .stack-track { animation: none !important; }
 }
 
+.section-desc--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ─── LOCAL COVERAGE ─── */
+.coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.coverage-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+.coverage-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.02em;
+}
+.coverage-state {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-accent);
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.coverage-card p:last-child {
+  font-size: 0.9375rem;
+  color: var(--color-muted);
+  margin: 0;
+  line-height: 1.55;
+}
+.coverage-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.coverage-tags li {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--color-muted);
+}
+
 /* ─── SERVICES ─── */
 .services-grid {
   display: grid;

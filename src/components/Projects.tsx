@@ -1,3 +1,4 @@
+import { SEO_COPY } from "../data/company";
 import { PROJECTS } from "../data/projects";
 import { useModal } from "../context/ModalContext";
 import { useReveal } from "../hooks/useReveal";
@@ -12,10 +13,7 @@ export function Projects() {
         <header className="section-header">
           <p className="section-eyebrow">Portfolio</p>
           <h2>Nuestros proyectos</h2>
-          <p className="section-desc">
-            Productos reales en producción — cada uno con su dominio, stack e infraestructura documentada.
-            Toca un proyecto para ver cómo funciona.
-          </p>
+          <p className="section-desc">{SEO_COPY.projectsDesc}</p>
         </header>
 
         <div className="projects-grid">

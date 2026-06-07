@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ironslash.com/sitemap.xml
+
+# IronSlash — desarrollo de software Toluca & Saltillo
