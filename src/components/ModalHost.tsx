@@ -114,14 +114,14 @@ export function ModalHost() {
         <p className="modal-eyebrow">Legal</p>
         <h2 id="modal-title">Privacidad</h2>
         <p className="modal-body">
-          Este sitio no recopila datos personales más allá de analytics anónimos estándar
-          que puedan configurarse en el futuro. El formulario de contacto es informativo;
-          al activarse en producción, se publicará aquí la política completa de tratamiento
-          de datos conforme a la legislación aplicable.
+          El formulario de contacto recopila tu nombre, email y mensaje únicamente para
+          responder a tu consulta. No compartimos estos datos con terceros ni los usamos
+          con fines distintos al seguimiento de tu proyecto. Conservamos la información el
+          tiempo necesario para atender tu solicitud.
         </p>
         <p className="modal-body">
           Para consultas sobre privacidad:{" "}
-          <a href="mailto:hello@ironslash.com">hello@ironslash.com</a>
+          <a href="mailto:ivan@ironslash.com">ivan@ironslash.com</a>
         </p>
       </>
     );

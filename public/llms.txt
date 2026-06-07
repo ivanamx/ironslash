@@ -23,4 +23,4 @@ Empresa de desarrollo de software premium. Construimos apps móviles, bots con i
 ## Contacto
 
 - Web: https://ironslash.com
-- Email: hello@ironslash.com
+- Email: ivan@ironslash.com

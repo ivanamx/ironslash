@@ -39,7 +39,7 @@ export const LOCATIONS = {
 
 export const BUSINESS = {
   name: "IronSlash",
-  email: "hello@ironslash.com",
+  email: "ivan@ironslash.com",
   url: SITE_URL,
   description:
     "Desarrollo de software premium: apps, bots con IA, automatizaciones, web apps y plataformas SaaS en Toluca, Saltillo y todo México.",

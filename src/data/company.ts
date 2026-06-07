@@ -2,7 +2,7 @@ export const SITE = {
   name: "IronSlash",
   tagline: "Software que corta el ruido.",
   url: "https://ironslash.com",
-  email: "hello@ironslash.com",
+  email: "ivan@ironslash.com",
   location: "Toluca · Saltillo · México",
   locationShort: "Toluca & Saltillo",
 } as const;
